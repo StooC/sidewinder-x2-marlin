@@ -10,7 +10,7 @@ The first step is to put your printer into a mode where it can be downloaded to.
 ## DFU mode from Marlin
 If your printer runs Marlin you can put the printer into reprogram mode by sending [`M997`](https://marlinfw.org/docs/gcode/M997.html) to the printer over the serial interface.
 
- 1. Install a serial terminal app such as [Coolterm](https://freeware.the-meiers.org)
+ 1. Install a serial terminal app such as [TIO](https://github.com/tio/tio)
  2. Open the terminal tool
  3. Connect [USB-B to USB-A cable](https://www.amazon.com/AmazonBasics-USB-2-0-Cable-Male/dp/B00NH11KIK/) between your PC and your computer and turn the printer on
  4. A new serial port should appear to connect to in your serial terminal. e.g. `COM5`
